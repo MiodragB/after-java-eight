@@ -12,7 +12,6 @@ public class ProcessHandleInfoDemo {
 			.sorted(Comparator.comparing(processHandle -> processHandle.info().startInstant().orElse(Instant.MAX)))
 			.forEach(ProcessHandleInfoDemo::printInfo);
 
-
 	}
 
 	private static void printInfo(ProcessHandle handle) {

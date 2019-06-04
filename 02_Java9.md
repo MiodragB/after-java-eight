@@ -289,6 +289,8 @@ Note: in order to use variable in try statement, it needs to be effectively fina
 * Javadoc is HTML5 compliant, Search is added, modules documentation also added
 https://docs.oracle.com/en/java/javase/12/docs/api/index.html 
 * Localization improvements. Unicode 8.0 support.
+* [JVM Compiler Interface](http://openjdk.java.net/jeps/243)
+* 
 
 ## New api's. Process API and Http2 API
 

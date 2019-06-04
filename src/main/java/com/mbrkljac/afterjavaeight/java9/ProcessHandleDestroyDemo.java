@@ -1,6 +1,5 @@
 package com.mbrkljac.afterjavaeight.java9;
 
-
 public class ProcessHandleDestroyDemo {
 
 	public static void main(String[] args) {

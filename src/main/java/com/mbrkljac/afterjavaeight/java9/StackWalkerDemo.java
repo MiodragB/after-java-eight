@@ -1,8 +1,10 @@
 package com.mbrkljac.afterjavaeight.java9;
 
 import java.lang.StackWalker.StackFrame;
+import java.nio.file.Files;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -24,7 +26,7 @@ public class StackWalkerDemo {
 		//reason for having stream confined to lambda (Illegal state exception is thrown if the stream is used outside this lambda),
 		// is to ensure we have stable and valid stacktrace at the given point.
 
-		System.out.println("Filtered frames: " +  filteredFrames);
+		System.out.println("Filtered frames: " + filteredFrames);
 
 	}
 }

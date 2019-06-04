@@ -1,0 +1,11 @@
+#!/usr/bin/java --source 11
+
+import java.nio.file.*;
+
+public class ShebangDemo {
+
+	public static void main(String[] args) throws Exception {
+		Files.walk(Paths.get(args[0])).forEach(System.out::println);
+	}
+
+}
